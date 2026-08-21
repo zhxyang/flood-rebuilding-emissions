@@ -34,6 +34,9 @@ Pipeline stages
 
 5. Post-processing
    Adds 'combined' flood_type (river + coastal) for visualisation.
+   Note: the exposure map uses 'mixed' flood_type (max(river, coastal)
+     per pixel, computed in Stage 3), which avoids double-counting
+     overlapping river/coastal zones.
    Outputs the visualisation-ready CSV used by the plotting scripts.
 
 6. Uncertainty
