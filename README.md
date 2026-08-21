@@ -6,7 +6,7 @@ Xiaoyang Zhong, Tomer Fishman, Timothy Tiggeloven, Yoav Peled, Yi Jin, Philip J.
 
 ## Overview
 
-This repository contains the modelling pipeline and visualisation scripts used to estimate expected annual damage (EAD) to building materials and associated embodied GHG emissions from riverine and coastal flooding across 47 European countries, under historical and future climate scenarios (RCP4.5 / RCP8.5, 2050 / 2080).
+This repository contains the modelling pipeline and visualisation scripts used to estimate expected annual damage (EAD) to building materials and associated embodied GHG emissions from riverine and coastal flooding across European countries, under historical and future climate scenarios (RCP4.5 / RCP8.5, 2050 / 2080).
 
 ## Repository structure
 
@@ -23,13 +23,12 @@ modelling/
 
 visuals/
   plot_all.py              # Run all figures in one go
-  plot_exposure_maps.py    # Fig 1: material exposure (river / coastal / combined)
-  plot_EAD_ghg_maps_river.py     # Fig 2: EAD + GHG maps, river
-  plot_EAD_ghg_maps_coastal.py   # Fig 3: EAD + GHG maps, coastal
-  plot_EAD_ghg_maps_combined.py  # Fig 4: EAD + GHG maps, combined
-  plot_reductions.py       # Fig 5: dike protection reduction maps + bar chart
-  plot_europe_bars.py      # Fig 6: Europe-level stacked bar chart
-  plot_uncertainty.py      # Fig 7: uncertainty bar chart + per-country CV map
+  plot_exposure_maps.py    # Fig: material exposure (river / coastal / combined)
+  plot_europe_bars.py      # Fig: Europe-level stacked bar chart
+  plot_EAD_ghg_maps_river.py     # Fig: EAD + GHG maps, river
+  plot_EAD_ghg_maps_coastal.py   # Fig: EAD + GHG maps, coastal
+  plot_EAD_ghg_maps_combined.py  # Fig: EAD + GHG maps, combined  
+  plot_uncertainty.py      # Fig: uncertainty bar chart + per-country CV map
 ```
 
 ## Running the pipeline
@@ -87,4 +86,4 @@ Figures are saved to `visuals/` with the current date in the filename.
 
 ## Citation
 
-> Zhong et al. (2025). Building materials and emissions from rebuilding under increasing climate-driven flood hazards. *Under review.*
+> Zhong et al. (2026). Building materials and emissions from rebuilding under increasing climate-driven flood hazards.
