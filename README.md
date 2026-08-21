@@ -51,10 +51,6 @@ Input data (not included in this repository due to size and licensing):
 - Gridded building material stocks (Peled & Fishman 2021)
 - GLOFRIS flood depth tables (river: Aqueduct Floods; coastal: Tiggeloven et al. 2020)
 - FLOPROS flood protection standards
-- Sub-country name lookup: `Join_country_names/Flood_polygon_RE_sub_country_names.csv`
-- Scenario table: `data/scenario_list.xlsx`
-- Emission factors: `data/Emission_factor.xlsx`
-- GADM level-1 shapefile: `regional_boundaries/gadm/gadm410_level1_RE_selected_for_visualization_2.shp`
 
 ### Running
 
